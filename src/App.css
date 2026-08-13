@@ -36,3 +36,865 @@
     transform: rotate(360deg);
   }
 }
+/* ===========================================
+   BEARDO THEME
+=========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f8f9fa;
+    color: #222;
+    font-family: "Segoe UI", sans-serif;
+    overflow-x: hidden;
+}
+
+/* ===========================================
+   LINKS
+=========================================== */
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ===========================================
+   NAVBAR
+=========================================== */
+
+.navbar {
+    background: #111 !important;
+    border-bottom: 2px solid #d4af37;
+}
+
+.navbar-brand {
+    color: #d4af37 !important;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+    color: #f4c542 !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #d4af37 !important;
+}
+
+.navbar .btn-warning {
+    background: #d4af37;
+    border: none;
+    font-weight: bold;
+}
+
+.navbar .btn-warning:hover {
+    background: #c49b2d;
+}
+
+.search-box {
+    border-radius: 30px;
+    padding: 10px 18px;
+}
+
+/* ===========================================
+   HERO SECTION
+=========================================== */
+
+.hero-section {
+    background: linear-gradient(to right, #000, #222);
+    color: white;
+    padding: 90px 0;
+}
+
+.hero-tag {
+    display: inline-block;
+    background: #d4af37;
+    color: #000;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #ddd;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.hero-image {
+    max-height: 550px;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.hero-image:hover {
+    transform: scale(1.03);
+}
+
+
+/* ===========================================
+   PRODUCT CARD
+=========================================== */
+
+.product-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.35s ease;
+    background: #fff;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+.product-image {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: transform .4s ease;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.08);
+}
+
+.product-card .card-body {
+    padding: 20px;
+}
+
+.product-card .card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.product-card h4 {
+    color: #198754;
+    font-weight: bold;
+}
+
+/* Rating */
+
+.product-card svg {
+    vertical-align: middle;
+}
+
+/* Wishlist Button */
+
+.product-card .btn-light {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+}
+
+.product-card .btn-light:hover {
+    background: #dc3545;
+    color: white;
+}
+
+.product-card .btn-light:hover svg {
+    color: white !important;
+}
+
+/* Discount Badge */
+
+.product-card .badge {
+    font-size: 13px;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+/* Add To Cart Button */
+
+.product-card .btn-warning {
+    font-weight: 700;
+    border: none;
+    transition: .3s;
+}
+
+.product-card .btn-warning:hover {
+    background: #c49b2d;
+    transform: translateY(-2px);
+}
+
+/* View Details */
+
+.product-card .btn-dark {
+    transition: .3s;
+}
+
+.product-card .btn-dark:hover {
+    background: #000;
+}
+
+/* Product Grid */
+
+.card {
+    height: 100%;
+}
+
+/* ===========================================
+   CART PAGE
+=========================================== */
+
+.cart-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .3s ease;
+    margin-bottom: 20px;
+}
+
+.cart-card:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+}
+
+.cart-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cart-price {
+    color: #198754;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cart-total {
+    background: #111;
+    color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.cart-total h3 {
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+.qty-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+/* ===========================================
+   WISHLIST
+=========================================== */
+
+.wishlist-empty {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.wishlist-empty h2 {
+    color: #888;
+    margin-top: 20px;
+}
+
+/* ===========================================
+   ADMIN PANEL
+=========================================== */
+
+.admin-section {
+    padding: 50px 0;
+}
+
+.admin-form {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.admin-table {
+    margin-top: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.admin-table table {
+    margin-bottom: 0;
+}
+
+.admin-table thead {
+    background: #111;
+    color: #fff;
+}
+
+.admin-table tbody tr:hover {
+    background: #fff8dc;
+}
+
+.admin-table img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* ===========================================
+   SEARCH & FILTER
+=========================================== */
+
+.filter-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+.filter-box .form-select,
+.filter-box .form-control {
+    border-radius: 10px;
+}
+
+.filter-box .form-select:focus,
+.filter-box .form-control:focus {
+    border-color: #d4af37;
+    box-shadow: 0 0 0 .2rem rgba(212,175,55,.25);
+}
+
+/* ===========================================
+   BUTTONS
+=========================================== */
+
+.btn-warning {
+    background: #d4af37;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-warning:hover {
+    background: #bf9828;
+}
+
+.btn-dark {
+    background: #111;
+}
+
+.btn-dark:hover {
+    background: #000;
+}
+
+/* ===========================================
+   FOOTER
+=========================================== */
+
+.footer-section {
+    background: #111;
+    color: #fff;
+    padding: 60px 0 20px;
+}
+
+.footer-logo {
+    color: #d4af37;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-heading {
+    color: #d4af37;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-text {
+    color: #ccc;
+    line-height: 1.8;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #ccc;
+    transition: .3s;
+}
+
+.footer-links a:hover {
+    color: #d4af37;
+    padding-left: 8px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    width: 45px;
+    height: 45px;
+    background: #222;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    background: #d4af37;
+    color: #111;
+    transform: translateY(-5px);
+}
+
+.footer-line {
+    border-color: rgba(255,255,255,.15);
+    margin: 40px 0 20px;
+}
+
+.footer-bottom {
+    color: #bbb;
+    font-size: 15px;
+}
+
+/* ===========================================
+   OFFER SECTION
+=========================================== */
+
+.offer-banner {
+    background: linear-gradient(90deg, #111, #222);
+    color: #fff;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.offer-banner h2 {
+    color: #d4af37;
+    font-weight: bold;
+}
+
+.offer-banner p {
+    color: #ddd;
+}
+
+/* ===========================================
+   FEATURE BOXES
+=========================================== */
+
+.feature-box {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: .35s;
+    box-shadow: 0 5px 18px rgba(0,0,0,.08);
+}
+
+.feature-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0,0,0,.18);
+}
+
+.feature-box h3 {
+    margin: 15px 0;
+    color: #222;
+}
+
+.feature-box p {
+    color: #666;
+}
+
+/* ===========================================
+   ANIMATIONS
+=========================================== */
+
+.fade-up {
+    animation: fadeUp .7s ease;
+}
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.zoom-hover {
+    transition: .35s;
+}
+
+.zoom-hover:hover {
+    transform: scale(1.05);
+}
+
+.shadow-hover {
+    transition: .35s;
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 15px 35px rgba(0,0,0,.18);
+}
+
+/* ===========================================
+   RESPONSIVE DESIGN
+=========================================== */
+
+/* ---------- Tablet ---------- */
+
+@media (max-width: 991px) {
+
+    .hero-section {
+        padding: 70px 0;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 46px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .hero-image {
+        margin-top: 40px;
+        max-height: 420px;
+    }
+
+    .navbar-nav {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .navbar .d-flex {
+        margin-top: 15px;
+    }
+
+    .product-image {
+        height: 240px;
+    }
+
+    .offer-banner {
+        padding: 35px;
+        text-align: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 767px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .hero-section {
+        padding: 50px 0;
+    }
+
+    .hero-title {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .hero-tag {
+        font-size: 13px;
+        padding: 6px 14px;
+    }
+
+    .hero-text {
+        font-size: 15px;
+    }
+
+    .hero-image {
+        max-height: 300px;
+    }
+
+    .navbar-brand {
+        font-size: 24px;
+    }
+
+    .search-box {
+        margin-top: 10px;
+    }
+
+    .product-image {
+        height: 220px;
+    }
+
+    .product-card .card-title {
+        font-size: 16px;
+    }
+
+    .cart-image {
+        width: 90px;
+        height: 90px;
+    }
+
+    .cart-price {
+        font-size: 20px;
+    }
+
+    .cart-total {
+        margin-top: 25px;
+    }
+
+    .offer-banner {
+        padding: 25px;
+    }
+
+    .offer-banner h2 {
+        font-size: 24px;
+    }
+
+    .feature-box {
+        margin-bottom: 20px;
+    }
+
+    .footer-logo {
+        font-size: 28px;
+    }
+
+    .footer-heading {
+        margin-top: 25px;
+    }
+
+}
+
+/* ---------- Small Mobile ---------- */
+
+@media (max-width: 576px) {
+
+    .hero-title {
+        font-size: 28px;
+    }
+
+    .hero-text {
+        font-size: 14px;
+    }
+
+    .product-image {
+        height: 200px;
+    }
+
+    .product-card .btn {
+        font-size: 14px;
+    }
+
+    .footer-section {
+        padding: 45px 0 20px;
+    }
+
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-bottom {
+        font-size: 13px;
+    }
+
+}/* ===========================================
+   CUSTOM SCROLLBAR
+=========================================== */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d4af37;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b8932e;
+}
+
+/* ===========================================
+   LOADER
+=========================================== */
+
+.loader-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.loader-section .spinner-border {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* ===========================================
+   IMAGE UTILITIES
+=========================================== */
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rounded-15 {
+    border-radius: 15px;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+/* ===========================================
+   SHADOW UTILITIES
+=========================================== */
+
+.shadow-soft {
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.shadow-medium {
+    box-shadow: 0 12px 28px rgba(0,0,0,.15);
+}
+
+.shadow-heavy {
+    box-shadow: 0 18px 40px rgba(0,0,0,.22);
+}
+
+/* ===========================================
+   TEXT COLORS
+=========================================== */
+
+.text-gold {
+    color: #d4af37 !important;
+}
+
+.bg-gold {
+    background: #d4af37 !important;
+}
+
+.bg-black {
+    background: #111 !important;
+}
+
+.text-light-gray {
+    color: #888;
+}
+
+/* ===========================================
+   SECTION SPACING
+=========================================== */
+
+.section-space {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* ===========================================
+   FORM CONTROLS
+=========================================== */
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+    padding: 10px 14px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #d4af37;
+    box-shadow: 0 0 0 .2rem rgba(212,175,55,.25);
+}
+
+/* ===========================================
+   TRANSITIONS
+=========================================== */
+
+.transition {
+    transition: all .3s ease;
+}
+
+/* ===========================================
+   REMOVE DEFAULT OUTLINES
+=========================================== */
+
+button:focus,
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+    outline: none !important;
+}
+
+/* ===========================================
+   END OF FILE
+=========================================== */

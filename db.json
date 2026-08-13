@@ -1,0 +1,374 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Beard Growth Oil",
+      "category": "Beard",
+      "price": 399,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600",
+      "description": "Premium beard growth oil enriched with natural ingredients for healthy beard growth."
+    },
+    {
+      "id": "2",
+      "name": "Beard Wash",
+      "category": "Beard",
+      "price": 299,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600",
+      "description": "Deep cleansing beard wash for soft and healthy beard."
+    },
+    {
+      "id": "3",
+      "name": "Hair Wax Strong Hold",
+      "category": "Hair",
+      "price": 450,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600",
+      "description": "Strong hold hair wax with matte finish for all hairstyles."
+    },
+    {
+      "id": "4",
+      "name": "Charcoal Face Wash",
+      "category": "Skin",
+      "price": 249,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=600",
+      "description": "Activated charcoal face wash for deep cleansing and oil control."
+    },
+    {
+      "id": "5",
+      "name": "Whisky Smoke Perfume",
+      "category": "Perfume",
+      "price": 799,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600",
+      "description": "Premium long lasting perfume with woody fragrance."
+    },
+    {
+      "id": "6",
+      "name": "Beard Comb",
+      "category": "Accessories",
+      "price": 199,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1585751119414-ef2636f8aede?w=600",
+      "description": "Wooden beard comb for smooth beard styling."
+    },
+    {
+      "id": "7",
+      "name": "Hair Serum",
+      "category": "Hair",
+      "price": 499,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600",
+      "description": "Hair serum that reduces frizz and adds natural shine."
+    },
+    {
+      "id": "8",
+      "name": "Vitamin C Face Serum",
+      "category": "Skin",
+      "price": 599,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600",
+      "description": "Vitamin C serum for glowing and healthy skin."
+    },
+    {
+      "id": "9",
+      "name": "Beard Balm",
+      "category": "Beard",
+      "price": 349,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600",
+      "description": "Nourishes and styles beard with long-lasting moisture."
+    },
+    {
+      "id": "10",
+      "name": "Beard Softener",
+      "category": "Beard",
+      "price": 399,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600",
+      "description": "Softens rough beard and provides a healthy shine."
+    },
+    {
+      "id": "11",
+      "name": "Hair Clay Matte Finish",
+      "category": "Hair",
+      "price": 499,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600",
+      "description": "Professional matte hair clay with extra strong hold."
+    },
+    {
+      "id": "12",
+      "name": "Anti Hair Fall Shampoo",
+      "category": "Hair",
+      "price": 349,
+      "rating": 4.6,
+      "image": "https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/334318/l-oreal-paris-fall-repair-3x-anti-hair-fall-shampoo-375-ml-13_1_display_1684737898_e140b84b.jpg",
+      "description": "Strengthens hair roots and reduces hair fall."
+    },
+    {
+      "id": "13",
+      "name": "Hair Conditioner",
+      "category": "Hair",
+      "price": 299,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?w=600",
+      "description": "Smooth conditioner for silky and manageable hair."
+    },
+    {
+      "id": "14",
+      "name": "Coffee Face Scrub",
+      "category": "Skin",
+      "price": 349,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600",
+      "description": "Removes dead skin cells and deeply exfoliates skin."
+    },
+    {
+      "id": "15",
+      "name": "Aloe Vera Face Gel",
+      "category": "Skin",
+      "price": 249,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1617897903246-719242758050?w=600",
+      "description": "Hydrates skin and gives a refreshing cooling effect."
+    },
+    {
+      "id": "16",
+      "name": "Premium Perfume Ocean",
+      "category": "Perfume",
+      "price": 899,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600",
+      "description": "Fresh aquatic fragrance with all-day performance."
+    },
+    {
+      "id": "17",
+      "name": "Luxury Grooming Kit",
+      "category": "Accessories",
+      "price": 1499,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600",
+      "description": "Complete grooming kit with beard, hair and skincare essentials."
+    },
+    {
+      "id": "18",
+      "name": "Professional Trimmer Kit",
+      "category": "Accessories",
+      "price": 1999,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1585751119414-ef2636f8aede?w=600",
+      "description": "Cordless trimmer with multiple trimming attachments."
+    },
+    {
+      "id": "19",
+      "name": "Beard Oil Pro",
+      "category": "Beard",
+      "price": 549,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600",
+      "description": "Advanced beard oil enriched with argan and almond oil."
+    },
+    {
+      "id": "20",
+      "name": "Beard Shampoo",
+      "category": "Beard",
+      "price": 329,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600",
+      "description": "Keeps beard clean, fresh and deeply nourished."
+    },
+    {
+      "id": "21",
+      "name": "Hair Styling Cream",
+      "category": "Hair",
+      "price": 449,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600",
+      "description": "Lightweight styling cream for everyday natural look."
+    },
+    {
+      "id": "22",
+      "name": "Hair Spray Extra Hold",
+      "category": "Hair",
+      "price": 399,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600",
+      "description": "Strong hold hair spray that lasts all day."
+    },
+    {
+      "id": "23",
+      "name": "Face Moisturizer",
+      "category": "Skin",
+      "price": 379,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=600",
+      "description": "Hydrates skin without making it oily."
+    },
+    {
+      "id": "24",
+      "name": "Charcoal Face Pack",
+      "category": "Skin",
+      "price": 299,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600",
+      "description": "Deep cleansing charcoal face pack for glowing skin."
+    },
+    {
+      "id": "25",
+      "name": "Black Musk Perfume",
+      "category": "Perfume",
+      "price": 999,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600",
+      "description": "Premium black musk fragrance with long-lasting freshness."
+    },
+    {
+      "id": "26",
+      "name": "Classic Oud Perfume",
+      "category": "Perfume",
+      "price": 1199,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?w=600",
+      "description": "Luxury oud perfume with rich woody notes."
+    },
+    {
+      "id": "27",
+      "name": "Beard Scissors",
+      "category": "Accessories",
+      "price": 249,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1585751119414-ef2636f8aede?w=600",
+      "description": "Professional stainless steel beard trimming scissors."
+    },
+    {
+      "id": "28",
+      "name": "Wooden Grooming Brush",
+      "category": "Accessories",
+      "price": 349,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600",
+      "description": "Premium wooden grooming brush for beard and hair."
+    },
+    {
+      "id": "29",
+      "name": "Beard Kit Deluxe",
+      "category": "Beard",
+      "price": 1799,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600",
+      "description": "Complete beard care kit with oil, wash, balm and comb."
+    },
+    {
+      "id": "30",
+      "name": "Beard Serum",
+      "category": "Beard",
+      "price": 649,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600",
+      "description": "Premium beard serum for stronger, softer and shinier beard."
+    },
+    {
+      "id": "31",
+      "name": "Hair Volume Powder",
+      "category": "Hair",
+      "price": 599,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600",
+      "description": "Instant volume powder for natural textured hairstyles."
+    },
+    {
+      "id": "32",
+      "name": "Hair Gel Ultra Hold",
+      "category": "Hair",
+      "price": 399,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600",
+      "description": "Long-lasting hair gel with extra strong hold."
+    },
+    {
+      "id": "33",
+      "name": "Daily Face Cleanser",
+      "category": "Skin",
+      "price": 299,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=600",
+      "description": "Gentle face cleanser suitable for everyday use."
+    },
+    {
+      "id": "34",
+      "name": "Vitamin C Face Cream",
+      "category": "Skin",
+      "price": 549,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600",
+      "description": "Brightening face cream enriched with Vitamin C."
+    },
+    {
+      "id": "35",
+      "name": "Night Repair Cream",
+      "category": "Skin",
+      "price": 699,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1617897903246-719242758050?w=600",
+      "description": "Overnight repair cream for healthy and refreshed skin."
+    },
+    {
+      "id": "36",
+      "name": "Fresh Deodorant Spray",
+      "category": "Perfume",
+      "price": 349,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=600",
+      "description": "Long-lasting deodorant with fresh masculine fragrance."
+    },
+    {
+      "id": "37",
+      "name": "Royal Cologne",
+      "category": "Perfume",
+      "price": 1399,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?w=600",
+      "description": "Luxury cologne with premium woody and spicy notes."
+    },
+    {
+      "id": "38",
+      "name": "Leather Grooming Pouch",
+      "category": "Accessories",
+      "price": 899,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600",
+      "description": "Premium leather pouch to organize grooming essentials."
+    },
+    {
+      "id": "39",
+      "name": "Travel Grooming Kit",
+      "category": "Accessories",
+      "price": 1299,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1585751119414-ef2636f8aede?w=600",
+      "description": "Compact travel grooming kit for everyday convenience."
+    },
+    {
+      "id": "40",
+      "name": "Luxury Gift Box",
+      "category": "Accessories",
+      "price": 2499,
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600",
+      "description": "Premium gift box featuring our best-selling grooming products."
+    }
+  ],
+  "users": [
+    {
+      "name": "Raval Rohit",
+      "email": "ravalrohit0045@gmail.com",
+      "password": "123456",
+      "mobile": "09510741618",
+      "id": "F5Vy2HTd7Lk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
